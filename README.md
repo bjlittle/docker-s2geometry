@@ -53,7 +53,6 @@ This will allow you to create and save `jupyter notebooks` within the container 
 
 ## References
 ### Documents
-Many thanks to:
 - **Christian Peroni's** awesome [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
 ### GitHub
 - [beyoung/s2geometry_docker](https://github.com/beyoung/s2geometry_docker)
