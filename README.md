@@ -52,14 +52,18 @@ To bind mount a volume from the host into the container, simply start the contai
 This will allow you to create and save `jupyter notebooks` within the container into the `/root/work/host` directory, and those notebooks will then be available in your host `</absolute/path/to/host/dir>` directory.
 
 ## References
-### Documents
-- [Geometry on the Sphere: Google's S2 Library](https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i0)
-- [S2 Google](https://s2geometry.io/)
+### Apps
+- [Constructing the Hilbert Curve](http://bit-player.org/extras/hilbert/hilbert-construction.html)
+- [Mapping points in a line to points in a square](http://bit-player.org/extras/hilbert/hilbert-mapping.html)
 
 ### Blogs
 - **Nick Johnson**, [Nick's Blog](http://blog.notdot.net/) blog post: [Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves](http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves)
 - **Christian Peroni**, [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
 - **Antoine Sinton**, [Zenly](https://blog.zen.ly/) blog post: [Geospatial indexing on Hilbert curves](https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc)
+
+### Documents
+- [Geometry on the Sphere: Google's S2 Library](https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i0)
+- [S2 Google](https://s2geometry.io/)
 
 ### GitHub
 - [beyoung/s2geometry_docker](https://github.com/beyoung/s2geometry_docker)
