@@ -53,6 +53,7 @@ This will allow you to create and save `jupyter notebooks` within the container 
 
 ## References
 ### Documents
+- [Geometry on the Sphere: Google's S2 Library](https://docs.google.com/presentation/d/1Hl4KapfAENAOf4gv-pSngKwvS_jwNVHRPZTTDzXXn6Q/view#slide=id.i0)
 - [S2 Google](https://s2geometry.io/)
 
 ### Blogs
