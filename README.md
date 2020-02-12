@@ -53,7 +53,7 @@ This will allow you to create and save `jupyter notebooks` within the container 
 
 ## Plans
 - [ ] Push a tagged version of this `s2geometry` image on Dockerhub
-- [ ] Build an push automatically to Dockerhub with CI 
+- [ ] Build and push automatically to Dockerhub with CI 
 - [ ] Provision a Docker image with google/s2geometry SWIG Python bindings within a conda environment
 - [ ] Provision a Docker image with google/s2geometry with full API Python bindings within a conda environment
 
