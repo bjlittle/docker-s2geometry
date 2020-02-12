@@ -1,10 +1,10 @@
-# docker-s2geometry
-
 <h1 align="center">
   <a href="https://s2geometry.io/" style="display: block; margin: 0 auto;">
    <img src="https://raw.githubusercontent.com/bjlittle/docker-s2geometry/master/s2geometry.png"
-        style="max-width: 40%;" alt="s2geometry"></a>
+        style="max-width: 30%;" alt="s2geometry"></a>
 </h1>
+
+# docker-s2geometry
 
 This repository contains the recipe for building a Docker ubuntu:bionic base image containing the Python3 SWIG bindings for [google/s2geometry](https://github.com/google/s2geometry) and [SciTools/cartopy](https://github.com/SciTools/cartopy).
 
