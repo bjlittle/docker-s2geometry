@@ -16,9 +16,9 @@ Simply build the Docker image as follows:
 > cd build
 > sudo docker build -t s2geometry .
 ```
-Over-ride the default [ARG](https://docs.docker.com/engine/reference/builder/#arg) `port` for the `jupyter notebook`:
+If necessary, override the default [ARG](https://docs.docker.com/engine/reference/builder/#arg) `port` for the `jupyter notebook`:
 ```
-> sudo docker build -t s2geometry --build-arg port=<port>  .
+> sudo docker build -t s2geometry --build-arg port=<container-port>  .
 ```
 
 ## Run the container
