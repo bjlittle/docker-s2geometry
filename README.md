@@ -70,6 +70,7 @@ This will allow you to create and save `jupyter notebooks` within the container 
 ### GitHub
 - [beyoung/s2geometry_docker](https://github.com/beyoung/s2geometry_docker)
 - [google/s2geometry](https://github.com/google/s2geometry)
+- [sidewalklabs/s2sphere](https://github.com/sidewalklabs/s2sphere)
 
 ## Plans
 - [ ] Push a tagged version of this `s2geometry` image on Dockerhub
