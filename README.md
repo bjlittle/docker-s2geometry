@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="https://s2geometry.io/" style="display: block; margin: 0 auto;">
    <img src="https://raw.githubusercontent.com/bjlittle/docker-s2geometry/master/s2geometry.png"
-        style="max-width: 30%;" alt="s2geometry"></a>
+        style="max-width: 20%;" alt="s2geometry"></a>
 </h1>
 
 # docker-s2geometry
@@ -13,9 +13,10 @@ By default, the recipe configures an [entrypoint](https://docs.docker.com/engine
 ## Build the image
 Simply build the Docker image as follows:
 ```
+> cd build
 > sudo docker build -t s2geometry .
 ```
-Override the default [ARG](https://docs.docker.com/engine/reference/builder/#arg) `port` for the `jupyter notebook`:
+Over-ride the default [ARG](https://docs.docker.com/engine/reference/builder/#arg) `port` for the `jupyter notebook`:
 ```
 > sudo docker build -t s2geometry --build-arg port=<port>  .
 ```
