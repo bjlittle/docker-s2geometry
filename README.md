@@ -26,11 +26,11 @@ Run the built `s2geometry` Docker image as follows:
 ```
 > sudo docker container run -it -p 8888:8888 --rm s2geometry
 ```
-Providing no `[COMMAND]` after the Docker `s2geometry` image will result in the `jupyter notebook` entrypoint executing in `--no-browser` mode.
+Providing no `[COMMAND]` after the Docker `s2geometry` image will result in the `jupyter notebook` `entrypoint` executing in `--no-browser` mode.
 
-Connect to the `jupyter notebook` running in the container through your browser of choice on port `8888`.
+Connect to the `jupyter notebook` running within the container through your browser of choice on port `8888`.
 
-To override the `entrypoint` for an interactive `bash` session in the running container, simply:
+To override the `entrypoint` for an interactive `bash` session in a running container, simply:
 ```
 > sudo docker container run -it -p 8888:8888 --entrypoint "/usr/bash" --rm s2geometry
 ```
@@ -39,3 +39,5 @@ To override the `entrypoint` for an interactive `bash` session in the running co
 The `s2geometry` Docker image is configured with the `jupyter notebook` password `hello-s2!`.
 
 See the [config/root-jupyter-nbtebook-config.py](https://github.com/bjlittle/docker-s2geometry/blob/master/config/root-jupyter-notebook-config.py#L281).
+
+Enjoy 😀
