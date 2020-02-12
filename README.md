@@ -52,8 +52,10 @@ To bind mount a volume from the host into the container, simply start the contai
 This will allow you to create and save `jupyter notebooks` within the container into the `/root/work/host` directory, and those notebooks will then be available in your host `</absolute/path/to/host/dir>` directory.
 
 ## References
+### Documents
 Many thanks to:
 - **Christian Peroni's** awesome [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
+### GitHub
 - [beyoung/s2geometry_docker](https://github.com/beyoung/s2geometry_docker)
 - [google/s2geometry](https://github.com/google/s2geometry)
 
