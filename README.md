@@ -38,6 +38,6 @@ To override the `entrypoint` for an interactive `bash` session in a running cont
 ## Jupyter notebook password
 The `s2geometry` Docker image is configured with the `jupyter notebook` password `hello-s2!`.
 
-See the [config/root-jupyter-nbtebook-config.py](https://github.com/bjlittle/docker-s2geometry/blob/master/config/root-jupyter-notebook-config.py#L281).
+See the [config/root-jupyter-notebook-config.py](https://github.com/bjlittle/docker-s2geometry/blob/master/build/config/root-jupyter-notebook-config.py#L281).
 
 Enjoy 😀
