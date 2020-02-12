@@ -52,7 +52,8 @@ To bind mount a volume from the host into the container, simply start the contai
 This will allow you to create and save `jupyter notebooks` within the container into the `/root/work/host` directory, and those notebooks will then be available in your host `</absolute/path/to/host/dir>` directory.
 
 ## Plans
-- [ ] Provision a tagged version of this `s2geometry` image on Dockerhub
+- [ ] Push a tagged version of this `s2geometry` image on Dockerhub
+- [ ] Build an push automatically to Dockerhub with CI 
 - [ ] Provision a Docker image with google/s2geometry SWIG Python bindings within a conda environment
 - [ ] Provision a Docker image with google/s2geometry with full API Python bindings within a conda environment
 
