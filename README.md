@@ -60,6 +60,7 @@ This will allow you to create and save `jupyter notebooks` within the container 
 
 ### Blogs
 - **Nick Johnson**, [Nick's Blog](http://blog.notdot.net/) blog post: [Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves](http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves)
+- **Sven Kreiss**, [Medium](https://medium.com/) blog post: [S2 cells and space-filling curves: Keys to building better digital map tools for cities](https://medium.com/sidewalk-talk/s2-cells-and-space-filling-curves-keys-to-building-better-digital-map-tools-for-cities-a312aa5e2f59)
 - **Christian Peroni**, [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
 - **Antoine Sinton**, [Zenly](https://blog.zen.ly/) blog post: [Geospatial indexing on Hilbert curves](https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc)
 
