@@ -13,7 +13,7 @@ By default, the recipe configures an [entrypoint](https://docs.docker.com/engine
 ## Build the image
 Simply build the Docker image as follows:
 ```
-> cd build
+> cd context
 > sudo docker build -t s2geometry .
 ```
 If necessary, override the default [ARG](https://docs.docker.com/engine/reference/builder/#arg) `port` for the `jupyter notebook`:
