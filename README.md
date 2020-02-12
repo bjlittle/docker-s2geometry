@@ -40,10 +40,10 @@ To override the `entrypoint` for an interactive `bash` session in a running cont
 ### The default password
 The `s2geometry` Docker image is configured with the `jupyter notebook` password `hello-s2!`.
 
-See the [config/root-jupyter-notebook-config.py](https://github.com/bjlittle/docker-s2geometry/blob/master/build/config/root-jupyter-notebook-config.py#L281).
+See the [config/root-jupyter-notebook-config.py](https://github.com/bjlittle/docker-s2geometry/blob/master/context/config/root-jupyter-notebook-config.py#L281).
 
 ### The working directory
-The default working directory for the `jupyter notebook` instance is `/root/work`, which conatains an [example notebook](https://github.com/bjlittle/docker-s2geometry/blob/master/build/notebooks/example.ipynb) to whet your appetite.
+The default working directory for the `jupyter notebook` instance is `/root/work`, which conatains an [example notebook](https://github.com/bjlittle/docker-s2geometry/blob/master/context/notebooks/example.ipynb) to whet your appetite.
 
 To bind mount a volume from the host into the container, simply start the container as follows:
 ```
