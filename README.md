@@ -56,9 +56,9 @@ This will allow you to create and save `jupyter notebooks` within the container 
 - [S2 Google](https://s2geometry.io/)
 
 ### Blogs
-- **Nick Johnson** [Nick's Blog](http://blog.notdot.net/) post: [Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves](http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves)
-- **Christian Peroni** [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
-- **Antoine Sinton** [Zenly](https://blog.zen.ly/) blog post: [Geospatial indexing on Hilbert curves](https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc)
+- **Nick Johnson**, [Nick's Blog](http://blog.notdot.net/) blog post: [Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves](http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves)
+- **Christian Peroni**, [Terra Incognita](http://blog.christianperone.com/) blog post: [Google's S2, geometry on the sphere, cells, and Hilbert curve](http://blog.christianperone.com/2015/08/googles-s2-geometry-on-the-sphere-cells-and-hilbert-curve/)
+- **Antoine Sinton**, [Zenly](https://blog.zen.ly/) blog post: [Geospatial indexing on Hilbert curves](https://blog.zen.ly/geospatial-indexing-on-hilbert-curves-2379b929addc)
 
 ### GitHub
 - [beyoung/s2geometry_docker](https://github.com/beyoung/s2geometry_docker)
