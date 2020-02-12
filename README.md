@@ -56,6 +56,7 @@ This will allow you to create and save `jupyter notebooks` within the container 
 - [Constructing the Hilbert Curve](http://bit-player.org/extras/hilbert/hilbert-construction.html)
 - [Mapping points in a line to points in a square](http://bit-player.org/extras/hilbert/hilbert-mapping.html)
 - [Planetary View](https://s2.sidewalklabs.com/planetaryview/)
+- [Region Coverer](https://s2.sidewalklabs.com/regioncoverer/)
 
 ### Blogs
 - **Nick Johnson**, [Nick's Blog](http://blog.notdot.net/) blog post: [Damn Cool Algorithms: Spatial indexing with Quadtrees and Hilbert Curves](http://blog.notdot.net/2009/11/Damn-Cool-Algorithms-Spatial-indexing-with-Quadtrees-and-Hilbert-Curves)
