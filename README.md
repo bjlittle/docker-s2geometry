@@ -30,7 +30,7 @@ Providing no `[COMMAND]` after the Docker `s2geometry` image will result in the 
 
 Connect to the `jupyter notebook` running within the container on your host through your browser of choice on port `8888`.
 
-If you want to use a different host port e.g., `9999`, then start the Docker container are follows:
+If you want to use a different host port e.g., `9999`, then start the Docker container as follows:
 ```
 > sudo docker container run -it -p 9999:8888 --rm s2geometry
 ```
