@@ -5,7 +5,8 @@ LABEL author="bjlittle" \
       description="Docker image for Google s2geometry and Python3.x SWIG bindings"
 
 ENV BASE_S2_DIR="/root/s2geometry" \
-    WORK_DIR="/root/work"
+    WORK_DIR="/root/work" \
+    JUPYTER_CONFIG="/root/.jupyter/jupyter_notebook_config.py"
 
 #
 # install system-level dependencies
@@ -50,7 +51,7 @@ RUN cmake -D GTEST_ROOT=/usr/src/gtest \
           ..
 
 RUN make \
-  && ctest \
+  && ctest -j4 \
   && make install
 
 # create convenience "s2" module link for SWIG python bindings to s2geometry
@@ -63,7 +64,7 @@ RUN DIST_PACKAGES_DIR=$(python -c "from distutils.sysconfig import get_python_li
 RUN pip3 install --upgrade pip
 # reference: https://github.com/Toblerity/Shapely/issues/566
 RUN pip3 install --no-binary Shapely Shapely
-RUN python -m pip install jupyter matplotlib pillow scipy pyepsg OWSLib cartopy
+RUN python -m pip install jupyter ipywidgets matplotlib pillow scipy pyepsg OWSLib cartopy
 
 #
 # XXX: workaround required for cartopy master (pre-0.18.0 release)
@@ -75,7 +76,7 @@ RUN python -m pip install Cython
 RUN python -m pip install -e .
 
 # setup jupyter with prior configuration
-COPY ./config/root-jupyter-notebook-config.py /root/.jupyter/jupyter_notebook_config.py
+COPY ./config/root-jupyter-notebook-config.py ${JUPYTER_CONFIG}
 
 # include the example jupyter notebook
 WORKDIR ${WORK_DIR}
@@ -84,7 +85,7 @@ COPY ./notebooks/example.ipynb ${WORK_DIR}
 # override default port with "docker build --build-arg port=<port>"
 ARG port=8888
 EXPOSE ${port}
+RUN sed -i "s/^\(c\.NotebookApp\.port = \)8888$/\1${port}/" ${JUPYTER_CONFIG}
 
 # start jupyter notebook as a service, by default...
 ENTRYPOINT ["jupyter", "notebook"]
-CMD ["--config=/root/.jupyter/jupyter_notebook_config.py"]
