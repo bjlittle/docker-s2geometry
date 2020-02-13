@@ -6,7 +6,7 @@
 
 # docker-s2geometry
 
-This repository contains a recipe for building a Docker `ubuntu:bionic` base-image containing the `Python3.6` SWIG bindings for [google/s2geometry](https://github.com/google/s2geometry), and [SciTools/cartopy](https://github.com/SciTools/cartopy).
+This repository contains a recipe for building a Docker `ubuntu:bionic` base image with layers containing the `Python3.6` SWIG bindings for [google/s2geometry](https://github.com/google/s2geometry), and [SciTools/cartopy](https://github.com/SciTools/cartopy).
 
 By default, the recipe configures an [entrypoint](https://docs.docker.com/engine/reference/builder/#entrypoint) to stand-up a [jupyter notebook](https://jupyter.org/) in the running container and will expose the service over container port `8888`.
 
