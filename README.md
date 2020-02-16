@@ -43,10 +43,11 @@ To override the `entrypoint` for an interactive `bash` session in a running cont
 ```
 
 ## Pull and run
-For convenience, simply pull the `bjlittle/s2geometry` image from [Dockerhub](https://hub.docker.com/r/bjlittle/s2geometry) and run the container as follows:
+For convenience, simply pull the `bjlittle/s2geometry` image from [Dockerhub](https://hub.docker.com/r/bjlittle/s2geometry) and run the container (in daemon-mode) as follows:
 ```
 > sudo docker image pull bjlittle/s2geometry:latest
-> sudo docker container run -it -p 8888:8888 --rm bjlittle/s2geometry
+> sudo docker container run -d -it -p 8888:8888 --rm bjlittle/s2geometry
+> firefox localhost:8888
 ```
 
 ## Jupyter notebook
