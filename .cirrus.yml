@@ -4,5 +4,5 @@ docker_builder:
     DOCKER_PASSWORD: ENCRYPTED[c9321fca5a5e629378f55a1af05c22def4bc5976529f91364882996920fbb3855d814929a39e1b092799dc86a78b4488]
   build_script: docker build --tag bjlittle/s2geometry context/.
   tag_script: docker tag bjlittle/s2geometry bjlittle/s2geometry:${CIRRUS_BUILD_ID}
-  login_script: docker login --username ${DOCKER_USERNAME} --password ${DOCKER_PASSWORD}
+  login_script: echo ${DOCKER_PASSWORD} | docker login --username ${DOCKER_USERNAME} --password-stdin
   push_script: docker push bjlittle/s2geometry
