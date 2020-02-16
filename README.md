@@ -94,6 +94,6 @@ This will allow you to create and save `jupyter notebooks` within the container 
 - [ ] Provision a Docker image with default google/s2geometry SWIG Python bindings within a conda environment
   - 17 Feb 2020 - WIP
 - [ ] Provision a Docker image with full API google/s2geometry Python bindings within a conda environment
-  - a conda package for a Python s2geometry package
+  - the goal is to provision a conda package on `conda-forge` containing the Python3.x bindings for the full google/s2geometry API
 
 Enjoy 😀
