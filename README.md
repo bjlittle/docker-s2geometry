@@ -81,8 +81,8 @@ This will allow you to create and save `jupyter notebooks` within the container 
 - [sidewalklabs/s2sphere](https://github.com/sidewalklabs/s2sphere)
 
 ## Plans
-- [ ] Push a tagged version of this `s2geometry` image on Dockerhub
-- [ ] Build and push automatically to Dockerhub with CI 
+- [x] Push a tagged version of this `s2geometry` image on Dockerhub
+- [x] Build and push automatically to Dockerhub with CI 
 - [ ] Provision a Docker image with default google/s2geometry SWIG Python bindings within a conda environment
 - [ ] Provision a Docker image with full API google/s2geometry Python bindings within a conda environment
   - a conda package for a Python s2geometry package
