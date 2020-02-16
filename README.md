@@ -6,7 +6,7 @@
 
 # docker-s2geometry
 
-[![Build Status](https://api.cirrus-ci.com/github/bjlittle/docker-s2geometry.svg)](https://cirrus-ci.com/github/bjlittle/s2geometry)
+[![Build Status](https://api.cirrus-ci.com/github/bjlittle/docker-s2geometry.svg)](https://cirrus-ci.com/bjlittle/s2geometry)
 
 This repository contains a recipe for building a Docker `ubuntu:bionic` base image with layers containing the `Python3.6` SWIG bindings for [google/s2geometry](https://github.com/google/s2geometry), and [SciTools/cartopy](https://github.com/SciTools/cartopy).
 
