@@ -1,6 +1,6 @@
 <h1 align="center">
   <a href="https://s2geometry.io/" style="display: block; margin: 0 auto;">
-   <img src="https://raw.githubusercontent.com/bjlittle/docker-s2geometry/master/s2geometry.png"
+   <img src="https://raw.githubusercontent.com/bjlittle/docker-s2geometry/master/s2geometry.gif"
         style="max-width: 10%;" alt="s2geometry"></a>
 </h1>
 
